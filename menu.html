@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Sweet Bliss Bakery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">🧁 Sweet Bliss</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html" class="active">Menu</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="order-now.html">Order Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Our Menu</h1>
+        <p>Delicious treats made fresh daily</p>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-section">
+        <div class="container">
+            <div class="menu-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="pastries">Pastries</button>
+                <button class="filter-btn" data-filter="cookies">Cookies</button>
+                <button class="filter-btn" data-filter="breads">Breads</button>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Pastries -->
+                <div class="menu-item" data-category="pastries">
+                    <img src="cupcake.jpeg" alt="Strawberry Cupcake" class="menu-image">
+                    <div class="menu-content">
+                        <h3>Strawberry Cupcake</h3>
+                        <p>Fluffy vanilla cupcake topped with fresh strawberry buttercream</p>
+                        <div class="menu-footer">
+                            <span class="price">$3.50</span>
+                            <a href="contact.html" class="btn btn-small">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="pastries">
+                    <img src="crossiant.jpeg" alt="Chocolate Croissant" class="menu-image">
+                    <div class="menu-content">
+                        <h3>Chocolate Croissant</h3>
+                        <p>Buttery, flaky croissant filled with rich dark chocolate</p>
+                        <div class="menu-footer">
+                            <span class="price">$4.00</span>
+                            <a href="contact.html" class="btn btn-small">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="pastries">
+                     <img src="blue.jpeg" alt="Blueberry Muffin" class="menu-image">
+                    <div class="menu-content">
+                        <h3>Blueberry Muffin</h3>
+                        <p>Classic muffin bursting with fresh blueberries</p>
+                        <div class="menu-footer">
+                            <span class="price">$3.00</span>
+                            <a href="contact.html" class="btn btn-small">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cookies -->
+                <div class="menu-item" data-category="cookies">
+                     <img src="choco.jpeg" alt="Chocolate Chip Cookies" class="menu-image">
+                    <div class="menu-content">
+                        <h3>Chocolate Chip Cookies</h3>
+                        <p>Classic cookies loaded with premium chocolate chips</p>
+                        <div class="menu-footer">
+                            <span class="price">$2.50</span>
+                            <a href="contact.html" class="btn btn-small">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="cookies">
+                    <img src="macaron.jpeg" alt="Raspberry Macarons" class="menu-image">
+                    <div class="menu-content">
+                        <h3>Raspberry Macarons</h3>
+                        <p>Delicate french macarons with raspberry filling (6 pack)</p>
+                        <div class="menu-footer">
+                            <span class="price">$12.00</span>
+                            <a href="contact.html" class="btn btn-small">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="cookies">
+                   <img src="oatmealcookie.jpeg" alt="Oatmeal Cookies" class="menu-image"> 
+                    <div class="menu-content">
+                        <h3>Oatmeal Cookies</h3>
+                        <p>Wholesome oatmeal cookies with a perfect crunch</p>
+                        <div class="menu-footer">
+                            <span class="price">$2.75</span>
+                            <a href="contact.html" class="btn btn-small">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Breads -->
+                <div class="menu-item" data-category="breads">
+                    <img src="bread.jpeg" alt="Sourdough Bread" class="menu-image">
+                    <div class="menu-content">
+                        <h3>Sourdough Bread</h3>
+                        <p>Artisan sourdough bread with a crispy crust and soft interior</p>
+                        <div class="menu-footer">
+                            <span class="price">$6.00</span>
+                            <a href="contact.html" class="btn btn-small">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="breads">
+                     <img src="Focaccia.jpg" alt="Focaccia Bread" class="menu-image">
+                    <div class="menu-content">
+                        <h3>Focaccia Bread</h3>
+                        <p>Mediterranean focaccia with olive oil, rosemary, and sea salt</p>
+                        <div class="menu-footer">
+                            <span class="price">$5.00</span>
+                            <a href="contact.html" class="btn btn-small">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Custom Orders Welcome!</h2>
+            <p>Need something special? We create custom cakes and treats for any occasion!</p>
+            <a href="contact.html" class="btn btn-primary">Request Custom Order</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Sweet Bliss Bakery</h4>
+                <p>123 Maple Street, Bakery City, BC 12345</p>
+                <p>📞 (555) 123-4567</p>
+                <p>📧 hello@sweetbliss.com</p>
+            </div>
+            <div class="footer-section">
+                <h4>Hours</h4>
+                <p>Monday - Friday: 7am - 7pm</p>
+                <p>Saturday: 8am - 8pm</p>
+                <p>Sunday: 9am - 6pm</p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">Twitter</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Sweet Bliss Bakery. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
